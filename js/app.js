@@ -25,30 +25,35 @@ divBox4.innerHTML = 63;
 var divbox5 = document.createElement('div')
 divbox5.id = 'job'
 divbox5.innerHTML = 'Clown and Restauranteur';
-document.body.appendChild(divbox5);
+data.appendChild(divbox5);
 
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 
 var divbox6 = document.createElement('div')
 divbox6.id = 'hobbies'
 divbox6.innerHTML = 'Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.';
-document.body.appendChild(divbox6);
+data.appendChild(divbox6);
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
 
 var divbox7 = document.createElement('div')
 divbox7.id = 'location'
 divbox7.innerHTML = 'Honolulu, HI'
-document.body.appendChild(divbox7);
+data.appendChild(divbox7);
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
 var divbox8 = document.createElement('div')
 divbox8.id = 'wants'
 divbox8.innerHTML = 'Looking for a Mrs. Mcdonald.'
-document.body.appendChild(divbox8);
+data.appendChild(divbox8);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
+
+var divbox9 = document.createElement('p')
+divbox9.id = 'pro2'
+divbox9.innerHTML = 'Burgers are for 25 cents, and fries are 10 cents. Come buy now!!!'
+profile.appendChild(divbox9);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
