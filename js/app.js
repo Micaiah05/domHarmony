@@ -12,6 +12,8 @@ divBox2.innerHTML = 23;
 
 //3. In the div id data section, target the div element with the id of 'fullname' and change Full Name to Ronald McDonald.
 
+var divBox3 = document.getElementById('fullname');
+divBox3.innerHTML = 'Ronald McDonald';
 
 //4. In the div id data section, target the div element with the id of 'age' and change Age to 63 Years Old.
 
