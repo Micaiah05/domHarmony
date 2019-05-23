@@ -17,10 +17,15 @@ divBox3.innerHTML = 'Ronald McDonald';
 
 //4. In the div id data section, target the div element with the id of 'age' and change Age to 63 Years Old.
 
-var divBox4 = topmenu.getElementById('age');
-divBox4.inerHTML = 63;
+var divBox4 = document.getElementById('age');
+divBox4.innerHTML = 63;
 
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
+
+var divbox5 = document.createElement('div')
+divbox5.id = 'job'
+divbox5.innerHTML = 'Clown and Restauranteur';
+document.body.appendChild(divbox5);
 
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 
