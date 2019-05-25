@@ -58,7 +58,7 @@ profile.appendChild(divbox9);
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
 var divBox10 = document.getElementsByClassName('firstName');
-divBox10[0].innerHTML = 'Wendy';
+divBox10[0].innerHTML = 'Wendys';
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
