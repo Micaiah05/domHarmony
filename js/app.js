@@ -63,7 +63,7 @@ divBox10[0].innerHTML = 'Wendys';
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
 var divBox11 = document.getElementsByClassName('otherAge');
-divBox11[0].innerHTML = '48';
+divBox11[0].innerHTML = 48;
 
 
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
@@ -77,6 +77,9 @@ var divBox13 = document.getElementsByClassName('status');
 divBox13[1].innerHTML = 'Peko Chan';
 
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
+
+var divBox14 = document.getElementsByClassName('otherAge');
+divBox14[1].innerHTML = 68;
 
  //Final Boss Create your own profile into the page:
  //change image to match your profile
